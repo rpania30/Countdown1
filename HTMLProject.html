@@ -2,13 +2,30 @@
 <html>
     <head>
         <title>HTML Project 1</title>
-        <h1>Rishi Pania</h1>
         <link rel="stylesheet" type="text/css" href="styles.css" \>
-        <img src = "/IMG_4894 (2).jpg" width="300px" alt="Here I am!"/>
+        <style>
+            h1 {
+                text-decoration: dashed;
+            }
+            .target {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        </style>
     </head>
     <body>
+        <h1 id = "h1-header">Rishi Pania</h1>
+        <img src = "/IMG_4894 (2).jpg" width="300px" alt="Here I am!"/>
         <h4 style = "background-color: lightgoldenrodyellow; font-weight: 32px;">Excited to be in SWE for Launch 2022!</h4>
         <p>I'm a sophomore studying Computer Science at George Mason University and I live in Northern Virginia. I love to hang out with friends, play Tennis, and listen to music.</p>
+        <p>I hope to learn more about:</p>
+        <div>
+            <ol>
+                <li class ="target">Front-end Development</li>
+                <li>Database Tools</li>
+                <li>API Communication</li>
+            </ol>
+        </div>
         <a href="https://joinforge.co/launch-swe" target = "_blank">Forge Launch SWE Site</a>
     </body>
 </html>
